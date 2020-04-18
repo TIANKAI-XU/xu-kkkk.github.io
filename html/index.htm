@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap4.3/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap4.3/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/master.css">
+    <script src="../bootstrap4.3/bootstrap-4.3.1-dist/js/jquery-3.3.1.js"></script>
+    <script src="../bootstrap4.3/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/master.js"></script>
+    <title>主页</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center my-5">
+            <h1 class="display-4 font-weight-bold">
+                <span id="hour"></span>
+                <span id="colon" class="my-disappear"> : </span>
+                <span id="minute"></span>
+            </h1>
+            <p class="lead">
+                <span id="month"></span>
+                <span>月</span>
+                <span id="date"></span>
+                <span>日</span>
+                <i class="fa fa-calendar"></i>
+                <span>星期</span>
+                <span id="week"></span>
+            </p>
+        </div>
+
+        <div class="input-group mt-5" id="my-search">
+            <input class="form-control" type="text" name="" id="search-content">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="btn-search">
+                    <i class="fa fa-search"></i>
+                    <span>百度一下</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
